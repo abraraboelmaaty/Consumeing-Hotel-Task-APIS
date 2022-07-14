@@ -1,0 +1,47 @@
+﻿@model BookingModelView
+
+@*@{
+    //Layout = null;
+    ViewBag.Title = "Create Room";
+}*@
+@*@{
+ SelectList users;
+    if(Model !=null)
+    {
+        users=new SelectList(ViewBag.Users,"Id","UserName",Model.UserId);
+    }
+    else
+    {
+        users=new SelectList(ViewBag.Users,"Id","UserName");
+    }
+}*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+    <link rel="stylesheet" href = "/lib/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+    <div class="container">
+        <form asp-action="Create" asp-controller="booking">
+            @*<label asp-for="Id"  class="control-label"></label>*@
+             <input asp-for=Id type="hidden" class="form-control mt-5" placeholder="BookingId" />
+                  <label asp-for=startDate class="control-label"></label>
+             <input asp-for=startDate  class="form-control mt-5" />
+                  <label asp-for=endDate class="control-label"></label>
+             <input asp-for=endDate  class="form-control mt-5" />
+                  <label asp-for=UserId class="control-label"></label>
+             <input asp-for=UserId  class="form-control mt-5" />
+              
+        @*<select asp-for=UserId asp-items="users" class="form-control">
+        </select>*@
+       
+            
+             <input type="submit" value="Add" class="btn btn-success mt-5"/>
+        </form>
+         <a asp-action="Index" asp-controller="booking"  class="btn btn-success mt-5">back to List</a>
+    </div>
+</body>
+</html>

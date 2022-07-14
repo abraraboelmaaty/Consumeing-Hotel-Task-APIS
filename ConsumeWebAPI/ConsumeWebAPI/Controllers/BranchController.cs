@@ -26,7 +26,7 @@ namespace ConsumeWebAPI.Controllers
             }
             return View(branchList);
         }
-        public IActionResult create()
+        public ActionResult create()
         {
             return View();
         }

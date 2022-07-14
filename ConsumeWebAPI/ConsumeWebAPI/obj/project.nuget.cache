@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MXqFUgqZ+xFxiXUApGENgYK2Y7Cumx203fJttijW3QAYtL7VXWqGiZPuPogJQh+cxjnCwi+Fhm78vVEj5QtWCg==",
+  "dgSpecHash": "l6h6BWWZHh60ebBzUr+YQISKMLaMPaosdbFhMuOA2X2sAkymCJBDm+9nsAqZYIgX3zzufmQaXgBoGtaWvW0+Ow==",
   "success": true,
-  "projectFilePath": "H:\\ابرار\\ITI\\Task\\front end\\Hotel task front\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj",
+  "projectFilePath": "H:\\ابرار\\ITI\\Tsk\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\flurl\\3.0.6\\flurl.3.0.6.nupkg.sha512",
+    "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\flurl.http\\3.2.4\\flurl.http.3.2.4.nupkg.sha512",
     "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

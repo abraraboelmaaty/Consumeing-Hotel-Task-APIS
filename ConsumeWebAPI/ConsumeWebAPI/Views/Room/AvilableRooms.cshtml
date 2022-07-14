@@ -37,7 +37,7 @@
             <th>@item.CanBookingmore</th>
             <th>@item.BranchId</th>
             <td>
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Booking</a>
+                <a asp-action="create" asp-controller="booking" asp-route-id="@item.Id" class="btn btn-primary">Booking</a>
             </td>
         </tr>
     }

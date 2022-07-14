@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ابرار\\ITI\\Task\\front end\\Hotel task front\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj": {}
+    "H:\\ابرار\\ITI\\Tsk\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj": {}
   },
   "projects": {
-    "H:\\ابرار\\ITI\\Task\\front end\\Hotel task front\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj": {
+    "H:\\ابرار\\ITI\\Tsk\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ابرار\\ITI\\Task\\front end\\Hotel task front\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj",
+        "projectUniqueName": "H:\\ابرار\\ITI\\Tsk\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj",
         "projectName": "ConsumeWebAPI",
-        "projectPath": "H:\\ابرار\\ITI\\Task\\front end\\Hotel task front\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj",
+        "projectPath": "H:\\ابرار\\ITI\\Tsk\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\ConsumeWebAPI.csproj",
         "packagesPath": "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\",
-        "outputPath": "H:\\ابرار\\ITI\\Task\\front end\\Hotel task front\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\obj\\",
+        "outputPath": "H:\\ابرار\\ITI\\Tsk\\Consumeing-Hotel-Task-APIS\\ConsumeWebAPI\\ConsumeWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CRIZMA MEGA STORE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[3.0.6, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.7, )"

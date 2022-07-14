@@ -8,69 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsumeWebAPI
 build_property.RootNamespace = ConsumeWebAPI
-build_property.ProjectDir = H:\ابرار\ITI\Task\front end\Hotel task front\Consumeing-Hotel-Task-APIS\ConsumeWebAPI\ConsumeWebAPI\
+build_property.ProjectDir = H:\ابرار\ITI\Tsk\Consumeing-Hotel-Task-APIS\ConsumeWebAPI\ConsumeWebAPI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = H:\ابرار\ITI\Task\front end\Hotel task front\Consumeing-Hotel-Task-APIS\ConsumeWebAPI\ConsumeWebAPI
+build_property.MSBuildProjectDirectory = H:\ابرار\ITI\Tsk\Consumeing-Hotel-Task-APIS\ConsumeWebAPI\ConsumeWebAPI
 build_property._RazorSourceGeneratorDebug = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Branch/Create.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Booking/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Branch/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Branch/Details.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Branch/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Branch/Index.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Branch/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Home/Index.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Home/Privacy.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/AvilableRooms.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/AvilableRooms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxBdmlsYWJsZVJvb21zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/Create.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/Details.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/getRoomByType.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/getRoomByType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxnZXRSb29tQnlUeXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/Index.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Shared/Error.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/_ViewImports.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/User/Confairm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb25mYWlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/User/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/_ViewStart.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/ابرار/ITI/Task/front end/Hotel task front/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Shared/_Layout.cshtml]
+[H:/ابرار/ITI/Tsk/Consumeing-Hotel-Task-APIS/ConsumeWebAPI/ConsumeWebAPI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4du4oi84kk

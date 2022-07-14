@@ -1,0 +1,23 @@
+﻿@model ConsumeWebAPI.Models.RoomViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class="container">
+    <div class="row mt-5 g-0">
+        
+        <div class = "col-8">
+            <h4>Id:@Model.Id</h4>
+            <h4>Description:@Model.Description</h4>
+            <h4>Avilable:@Model.Avilable</h4>
+            <h4>CanBookingmore:@Model.CanBookingmore</h4>
+            <h4>CoustomerCount:@Model.CoustomerCount</h4>
+            <h4>Number:@Model.Number</h4>
+            <h4>RoomType:@Model.RoomType</h4>
+            <h4>Status:@Model.Status</h4>
+        </div>
+    </div>
+    <a asp-action="Index" asp-controller="room" class="btn btn-success mt-5">back to List</a>

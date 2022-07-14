@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aed40d37-c68c-47b1-91ab-25dac88fe034": {
+      "ProjectGuid": "aed40d37-c68c-47b1-91ab-25dac88fe034",
+      "DisplayName": "ConsumeWebAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

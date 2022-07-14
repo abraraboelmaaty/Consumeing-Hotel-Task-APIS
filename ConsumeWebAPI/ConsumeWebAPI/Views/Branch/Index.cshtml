@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ConsumeWebAPI.Models.BranchViewModel>
+
+@{
+    ViewData["Title"] = "All Branches";
+}
+
+<div class="container">
+<h1>ALL BRANCHES</h1>
+
+<p>
+     <a asp-action ="create" asp-controller = "branch"  class="btn btn-success mt-5">Create Branch</a>
+</p>
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.location)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.location)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
+<table class="table table-bordered table-hover" width="50%">
+    <thead>
+    <tr>
+        <th>
+              BranchId
+        </th>
+        <th>
+             BranchLocation
+        </th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.location</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+</div>
+
+

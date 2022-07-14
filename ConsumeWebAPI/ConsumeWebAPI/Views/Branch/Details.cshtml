@@ -1,0 +1,17 @@
+﻿@model ConsumeWebAPI.Models.BranchViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class="container">
+    <div class="row mt-5 g-0">
+        
+        <div class = "col-8">
+            <h4>Id:@Model.Id</h4>
+            <h4>Location:@Model.location</h4>
+        </div>
+    </div>
+    <a asp-action="Index" asp-controller="branch" class="btn btn-success mt-5">back to List</a>

@@ -1,0 +1,56 @@
+﻿
+@model RoomViewModel
+
+@*@{
+    //Layout = null;
+    ViewBag.Title = "Create Room";
+}*@
+@{
+ SelectList branches;
+    if(Model !=null)
+    {
+        branches=new SelectList(ViewBag.Branches,"Id","location",Model.BranchId);
+    }
+    else
+    {
+        branches=new SelectList(ViewBag.Branches,"Id","location");
+    }
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+    <link rel="stylesheet" href = "/lib/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+    <div class="container">
+        <form asp-action="Create" asp-controller="room">
+            @*<label asp-for="Id"  class="control-label"></label>*@
+             <input asp-for=Id type="hidden" class="form-control mt-5" placeholder="RoomId" />
+                  <label asp-for=Description class="control-label"></label>
+             <input asp-for=Description  class="form-control mt-5" />
+                  <label asp-for=Number class="control-label"></label>
+             <input asp-for=Number  class="form-control mt-5" />
+                  <label asp-for=BranchId class="control-label"></label>
+             @*<input asp-for=BranchId  class="form-control mt-5" />*@
+              
+        <select asp-for=BranchId asp-items="branches" class="form-control">
+        </select>
+        <label asp-for=RoomType class="control-label"></label>
+        <select name="RoomType" id="RoomType" class="form-control">
+          
+                    <option value="@RoomType.Single" selected>Single</option>
+                    <option value="@RoomType.Double" selected>Double</option>
+                    <option value="@RoomType.Suite" selected>Suite</option>
+          
+           
+        </select>
+            
+             <input type="submit" value="Add" class="btn btn-success mt-5"/>
+        </form>
+         <a asp-action="Index" asp-controller="room" class="btn btn-success mt-5">back to List</a>
+    </div>
+</body>
+</html>

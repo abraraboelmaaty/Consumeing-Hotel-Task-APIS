@@ -1,0 +1,60 @@
+﻿@model IEnumerable<ConsumeWebAPI.Models.RoomViewModel>
+
+@{
+    ViewData["Title"] = "All Rooms";
+}
+
+<div class="container">
+<h1>ALL ROOMS</h1>
+
+<p>
+     <a asp-action ="create" asp-controller = "room"  class="btn btn-success mt-5">Create Room</a>
+</p>
+<table class="table table-bordered table-hover" width="50%">
+    <thead>
+    <tr>
+        <th>RoomId</th>
+        <th>Description</th>
+        <th>Number</th>
+        <th>Status</th>
+        <th>CustomerCount</th>
+        <th>Type</th>
+        <th>CanBookingMore</th>
+        <th>BranchId</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <th>@item.Description</th>
+            <th>@item.Number</th>
+            <th>@item.Status</th>
+            <th>@item.CoustomerCount</th>
+            <th>@item.RoomType</th>
+            <th>@item.CanBookingmore</th>
+            <th>@item.BranchId</th>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+@*<a asp-action=room asp-controller=getRoomByType asp-route=@RoomType.Single class="btn btn-primary">Singel Rooms</a>
+<a asp-action=room asp-controller=getRoomByType asp-route=@RoomType.Double class="btn btn-success">Double Rooms</a>
+<a asp-action=room asp-controller=getRoomByType asp-route=@RoomType.Suite class="btn btn-danger">Suite Rooms</a>*@
+<a @*asp-action="getRoomByType"  asp-route=0 class="btn btn-primary">Singel Rooms</a>
+<a asp-action="getRoomByType"  asp-route=1 class="btn btn-success">Double Rooms</a>
+<a asp-action="getRoomByType"  asp-route=2 class="btn btn-danger">Suite Rooms</a>*@
+<a href="room/getRoomByType/@RoomType.Single" class="btn btn-primary">Singel Rooms</a>
+<a href="room/getRoomByType/@RoomType.Double" class="btn btn-primary">Double Rooms</a>
+<a href="room/getRoomByType/@RoomType.Suite" class="btn btn-primary">Suite Rooms</a>
+@*<a asp-action="getRoomByType"  asp-route=1 class="btn btn-success">Double Rooms</a>
+<a asp-action="getRoomByType"  asp-route=2 class="btn btn-danger">Suite Rooms</a>*@
+@*@Html.ActionLink("getRoomByType", "getRoomByType", new { id=@RoomType.Single })
+@Html.ActionLink("getRoomByType", "getRoomByType", new { id=@RoomType.Double })
+@Html.ActionLink("getRoomByType", "getRoomByType", new { id=@RoomType.Suite })*@
+</div>
